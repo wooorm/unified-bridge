@@ -1,0 +1,19 @@
+{
+  "name": "unified-bridge",
+  "version": "0.0.0",
+  "description": "Transform between two unified processors",
+  "license": "MIT",
+  "keywords": [
+    "unified",
+    "bridge",
+    "nlcst",
+    "mdast",
+    "hast",
+    "retext",
+    "remark"
+  ],
+  "repository": "wooorm/unified-bridge",
+  "scripts": [
+    "index.js"
+  ]
+}
