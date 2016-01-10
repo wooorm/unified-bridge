@@ -1,4 +1,4 @@
-# unified-bridge [![Build Status][travis-badge]][travis] [![Coverage Status][coveralls-badge]][coveralls]
+# unified-bridge [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
 
 [Unified][unified] bridges transform the syntax tree from one
 processor to that of another processor.  Then, they apply the
@@ -176,9 +176,9 @@ processor.
 
 [travis]: https://travis-ci.org/wooorm/unified-bridge
 
-[coveralls-badge]: https://img.shields.io/coveralls/wooorm/unified-bridge.svg?style=flat
+[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/remark.svg
 
-[coveralls]: https://coveralls.io/r/wooorm/unified-bridge?branch=master
+[codecov]: https://codecov.io/github/wooorm/remark
 
 [npm-install]: https://docs.npmjs.com/cli/install
 
