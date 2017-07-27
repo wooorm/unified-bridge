@@ -1,59 +1,10 @@
 {
   "name": "unified-bridge",
-  "version": "1.0.0",
-  "description": "Transform between two unified processors",
+  "version": "2.0.0",
+  "description": "Deprecated",
   "license": "MIT",
-  "keywords": [
-    "unified",
-    "bridge",
-    "nlcst",
-    "mdast",
-    "hast",
-    "retext",
-    "remark"
-  ],
-  "files": [
-    "index.js",
-    "LICENSE"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wooorm/unified-bridge.git"
-  },
-  "author": "Titus Wormer <tituswormer@gmail.com>",
-  "dependencies": {},
-  "devDependencies": {
-    "browserify": "^13.0.0",
-    "eslint": "^1.0.0",
-    "esmangle": "^1.0.0",
-    "istanbul": "^0.4.0",
-    "jscs": "^2.0.0",
-    "jscs-jsdoc": "^1.0.0",
-    "mdast-util-to-nlcst": "^1.0.0",
-    "remark": "^3.0.0",
-    "remark-comment-config": "^2.0.2",
-    "remark-github": "^2.0.0",
-    "remark-html": "^2.0.2",
-    "remark-lint": "^2.0.2",
-    "remark-slug": "^3.0.1",
-    "remark-validate-links": "^2.0.2",
-    "remark-yaml-config": "^2.0.0",
-    "retext": "^1.0.0",
-    "retext-equality": "^1.6.4",
-    "tape": "^4.0.0",
-    "vfile": "^1.2.0",
-    "vfile-reporter": "^1.5.0"
-  },
-  "scripts": {
-    "build-md": "remark . --quiet --frail",
-    "build-bundle": "browserify index.js --bare -s unifiedBridge > unified-bridge.js",
-    "build-mangle": "esmangle unified-bridge.js > unified-bridge.min.js",
-    "build": "npm run build-md && npm run build-bundle && npm run build-mangle",
-    "lint-api": "eslint .",
-    "lint-style": "jscs --reporter inline .",
-    "lint": "npm run lint-api && npm run lint-style",
-    "test-api": "node test.js",
-    "test-coverage": "istanbul cover test.js",
-    "test": "npm run build && npm run lint && npm run test-coverage"
-  }
+  "keywords": [],
+  "files": [],
+  "repository": "wooorm/unified-bridge",
+  "author": "Titus Wormer <tituswormer@gmail.com>"
 }
